@@ -134,7 +134,7 @@ export default class Favourite extends Component {
                                     <input type="number" className="input-group-text col" placeholder="Rows Count" value={this.state.limit} onChange={(e)=>this.setState({limit:e.target.value})}/>
                                 </div>
                                 <div className="row">
-                                <table class="table">
+                                <table class="table"> 
                                     <thead>
                                         <tr>
                                         <th scope="col">Title</th>
